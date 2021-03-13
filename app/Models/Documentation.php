@@ -15,14 +15,24 @@ class Documentation extends Model
 
     protected $rows = [
         [
-            'title' => 'Introduction',
             'slug' => 'introduction',
-            'section' => 'getting-started'
+            'section' => 'getting-started',
+            'title' => 'Introduction',
         ],
         [
-            'title' => null,
             'slug' => 'installation',
-            'section' => 'getting-started'
+            'section' => 'getting-started',
+            'title' => null
+        ],
+        [
+            'slug' => 'posts',
+            'section' => 'features',
+            'title' => null
+        ],
+        [
+            'slug' => 'tags',
+            'section' => 'features',
+            'title' => null
         ],
     ];
 

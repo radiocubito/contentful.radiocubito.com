@@ -30,6 +30,7 @@ Route::get('/docs/{documentation:slug}', function (Documentation $documentation)
 
     return view('docs.show', [
         'gettingStartedDocs' => Documentation::where('section', 'getting-started')->get(),
+        'featuresDocs' => Documentation::where('section', 'features')->get(),
         'doc' => $documentation,
     ]);
 })->name('docs.show');
