@@ -35,6 +35,7 @@
 
         <section class="bg-white border-t">
             <div class="p-8 max-w-3xl mx-auto">
+                <p><a class="anchor" name="changelog"></a></p>
                 <h2 class="mt-8 text-3xl lg:text-4xl font-semibold leading-slug">
                     Changelog
                 </h2>

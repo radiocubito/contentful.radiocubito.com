@@ -8,7 +8,7 @@
 
 Weekly update with features and improvements made to RadioCúbito Wordful.
 
-📝 [View Changelog](/)
+📝 [View Changelog](/#changelog)
 
 ## Questions and issues
 
