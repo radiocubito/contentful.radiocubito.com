@@ -19,6 +19,12 @@ After installing RadioCúbito Wordful, you may publish its resources using the `
 php artisan wordful:install
 ```
 
+Finally, run the migrate Artisan command:
+
+```bash
+php artisan migrate
+```
+
 ### Dashboard Authorization
 
 RadioCúbito Wordful exposes a dashboard at `/wordful`. By default, you will only be able to access this dashboard in the local environment. To use it in another environment, you need to register a gate check.
