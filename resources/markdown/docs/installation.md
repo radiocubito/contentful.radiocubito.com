@@ -34,7 +34,7 @@ You can determine which users of your application are allowed to view the RadioC
 ```php
 // app/Providers/WordfulServiceProvider.php
 
-public function boot()
+public function gate()
 {
    Gate::define('viewWordful', function ($user) {
        return in_array($user->email, [
