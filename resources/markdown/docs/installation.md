@@ -67,3 +67,9 @@ To keep the assets up-to-date and avoid issues in future updates, you may add th
     }
 }
 ```
+
+## Starter Kits
+
+Looking to kick start into a ready-made site?
+
+- [Personal Blog](/docs/personal-blog-starter-kit)
