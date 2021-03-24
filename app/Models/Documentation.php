@@ -34,6 +34,11 @@ class Documentation extends Model
             'section' => 'features',
             'title' => null
         ],
+        [
+            'slug' => 'personal-blog-starter-kit',
+            'section' => 'starter-kits',
+            'title' => 'Personal Blog'
+        ],
     ];
 
     protected static function boot()

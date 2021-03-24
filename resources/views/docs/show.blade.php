@@ -52,6 +52,30 @@
                     @endforeach
                 </div>
             </div>
+
+            <div class="mt-8">
+                <h6 class="px-3 my-2 text-sm font-bold text-gray-500">
+                    Starter Kits
+                </h6>
+
+                <div>
+                    @foreach ($starterKitsDocs as $starterKitsDoc)
+                        @if ($starterKitsDoc->slug === $doc->slug)
+                            <a href="{{ route('docs.show', $starterKitsDoc->slug) }}" class="mt-1 group flex items-center px-3 py-2 text-sm leading-5 lg:border-r-2 border-purple-500 focus:outline-none transition ease-in-out duration-150 text-purple-900 bg-purple-50 focus:bg-gray-200" aria-current="page">
+                                <span class="truncate">
+                                    {{ $starterKitsDoc->title }}
+                                </span>
+                            </a>
+                        @else
+                            <a href="{{ route('docs.show', $starterKitsDoc->slug) }}" class="mt-1 group flex items-center px-3 py-2 text-sm leading-5 focus:outline-none transition ease-in-out duration-150 text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100" aria-current="page">
+                                <span class="truncate">
+                                    {{ $starterKitsDoc->title }}
+                                </span>
+                            </a>
+                        @endif
+                    @endforeach
+                </div>
+            </div>
         </nav>
 
         <main class="lg:col-span-3 px-3 pb-24 lg:px-0 mt-8 lg:mt-24 lg:grid lg:grid-cols-4 lg:gap-10">
