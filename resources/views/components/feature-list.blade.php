@@ -1,34 +1,22 @@
 @props([
     'features' => [
         [
-            'Real-time collaboration',
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula condimentum velit, quis mattis ligula posuere tempus.',
-            'Styling',
-            '#'
+            'Posts',
+            'The essence of Wordful. You can create post drafts to publish later or email posts to your subscribers.',
+            'Posts',
+            route('docs.show', 'posts'),
         ],
         [
-            'Collaborative',
-            'Integer pulvinar egestas nibh, ac consectetur ex molestie sit amet. Nullam mollis leo mi, egestas euismod nunc blandit ullamcorper.',
-            'Collaborative editing',
-            '#'
+            'Pages',
+            'Static “one-off” content for your about page, privacy policy, contact page, etc.',
+            'Pages',
+            route('docs.show', 'posts'),
         ],
         [
-            'Framework-agnostic',
-            'Donec nec ullamcorper est, ut dignissim justo. Integer suscipit lacinia posuere. Duis facilisis venenatis efficitur.',
-            'Installation',
-            '#'
-        ],
-        [
-            'Community',
-            'Aenean sit amet pharetra felis, id rhoncus velit. Nam ornare diam ac nunc molestie, eget fringilla dui iaculis.',
-            'Github',
-            '#'
-        ],
-        [
-            'TypeScript',
-            'Cras elementum maximus quam, sit amet congue tortor eleifend tristique. Quisque consectetur mattis nunc ut sollicitudin. Etiam a aliquam quam, et aliquam lorem.',
-            'TypeScript',
-            '#'
+            'Tags',
+            'Organize posts into related content by tagging them with one or more keywords.',
+            'Tags',
+            route('docs.show', 'tags'),
         ],
     ],
 ])

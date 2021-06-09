@@ -4,10 +4,10 @@
     <main class="space-y-20 py-20 sm:space-y-28 sm:py-28">
         <x-page-section>
             <h1 class="text-4xl sm:text-6xl font-bold leading-tight">
-                Just a simple blogging platform for Laravel.
+                Just a simple publishing platform for Laravel.
             </h1>
             <p class="mt-10 text-xl leading-relaxed">
-                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula condimentum velit, quis mattis ligula posuere tempus. Integer pulvinar egestas nibh, ac consectetur ex molestie sit amet. Nullam mollis leo mi, egestas euismod nunc blandit ullamcorper.
+                 Wordful is a straightforward publishing platform built as an open-source package for Laravel. Just posts, pages, and tags to organize content.
             </p>
             <div class="mt-8">
                 <div class="flex flex-col sm:flex-row space-y-3 sm:space-x-3 sm:space-y-0">
@@ -27,7 +27,9 @@
 
         <x-page-section>
             <h2 class="text-5xl font-bold leading-tight">Quickstart</h2>
-            <p class="mt-8 leading-relaxed">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula condimentum velit, quis mattis ligula posuere tempus.</p>
+            <p class="mt-8 leading-relaxed">
+                Install Wordful via the Composer package manager:
+            </p>
             <button type="button" class="mt-5 max-w-full py-4 px-6 rounded bg-gray-800 text-sm inline-flex items-center space-x-2 group" x-data="{ command: 'composer require radiocubito/laravel-wordful' }" @click="$clipboard(command)">
                 <span class="font-mono text-gray-500">$</span>
                 <pre class="overflow-auto"><code class="text-white"><span class="text-blue-300">composer</span> require radiocubito/laravel-wordful</code></pre>
